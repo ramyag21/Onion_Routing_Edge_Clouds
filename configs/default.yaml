@@ -1,0 +1,60 @@
+# Default configuration for onion routing simulation
+
+simulation:
+  duration_seconds: 300
+  log_level: INFO
+  
+network:
+  num_clients: 5
+  num_entry_nodes: 3
+  num_relay_nodes: 5
+  num_exit_nodes: 3
+  num_api_gateways: 2
+  
+  # Network topology parameters
+  max_route_length: 4
+  min_route_length: 3
+  encryption_key_size: 256
+  
+traffic:
+  # Legitimate traffic parameters
+  legitimate_request_rate_per_client: 0.5  # requests per second
+  request_size_min: 100
+  request_size_max: 2000
+  
+  # DDoS attack parameters
+  volumetric_attack_rate: 100  # requests per second
+  low_rate_attack_rate: 0.1    # requests per second
+  attack_payload_size: 5000    # bytes
+  
+ddos_detection:
+  # Model training parameters
+  train_models: true
+  synthetic_data_samples: 10000
+  
+  # Detection thresholds
+  tinyml_threshold: 0.5
+  lstm_threshold: 0.5
+  gru_threshold: 0.5
+  
+  # Feature extraction parameters
+  time_window_seconds: 10
+  max_connections_per_window: 1000
+  
+explainable_ai:
+  enable_shap: true
+  enable_lime: true
+  shap_sample_size: 100
+  lime_num_features: 10
+  
+performance_metrics:
+  collect_latency: true
+  collect_throughput: true
+  collect_memory_usage: true
+  collect_cpu_usage: true
+  
+output:
+  save_metrics: true
+  save_logs: true
+  save_model_results: true
+  output_directory: "data/"
