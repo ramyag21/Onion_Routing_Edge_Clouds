@@ -4,7 +4,7 @@
 
 This repository contains a comprehensive simulation framework for researching **onion routing-based DDoS mitigation** in edge cloud API gateways. The implementation combines privacy-preserving communication with real-time threat detection using lightweight AI models optimized for resource-constrained edge environments.
 
-## 🚀 Key Research Contributions
+## Key Research Contributions
 
 1. **Privacy-Preserving DDoS Mitigation**: Novel combination of onion routing anonymity with multi-layered threat detection
 2. **Edge-Optimized AI**: TinyML models achieving **97% accuracy** in just **550KB** memory footprint
@@ -53,8 +53,8 @@ This repository contains a comprehensive simulation framework for researching **
 
 ### Prerequisites
 ```bash
-# Python 3.8 or higher required
-python3 --version
+# Python 3.8+ required (3.9.6 recommended and tested)
+python3 --version  # Should show Python 3.8.0 or higher
 
 # Create virtual environment
 python3 -m venv venv

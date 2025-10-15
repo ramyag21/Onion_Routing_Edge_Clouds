@@ -1,0 +1,84 @@
+{
+  "simulation_duration_seconds": 303.688773,
+  "total_requests_processed": 2989,
+  "total_ddos_attacks_detected": 0,
+  "average_throughput_rps": 9.842313136811283,
+  "agent_metrics": {
+    "clients": [
+      {
+        "agent_id": "client_0",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      },
+      {
+        "agent_id": "client_1",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      },
+      {
+        "agent_id": "client_2",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      }
+    ],
+    "entry_nodes": [
+      {
+        "agent_id": "entry_0",
+        "requests_processed": 1468,
+        "ddos_detected": 0,
+        "errors": 0
+      },
+      {
+        "agent_id": "entry_1",
+        "requests_processed": 1521,
+        "ddos_detected": 0,
+        "errors": 0
+      }
+    ],
+    "relay_nodes": [
+      {
+        "agent_id": "relay_0",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      },
+      {
+        "agent_id": "relay_1",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      },
+      {
+        "agent_id": "relay_2",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      }
+    ],
+    "exit_nodes": [
+      {
+        "agent_id": "exit_0",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      },
+      {
+        "agent_id": "exit_1",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      }
+    ],
+    "api_gateways": [
+      {
+        "agent_id": "gateway_0",
+        "requests_processed": 0,
+        "ddos_detected": 0,
+        "errors": 0
+      }
+    ]
+  }
+}
